@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/interaction-design/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/interaction-design/static/js/main.daec12c1.chunk.js",
-    "main.js.map": "/interaction-design/static/js/main.daec12c1.chunk.js.map",
+    "main.js": "/interaction-design/static/js/main.cded8bda.chunk.js",
+    "main.js.map": "/interaction-design/static/js/main.cded8bda.chunk.js.map",
     "runtime-main.js": "/interaction-design/static/js/runtime-main.01167a57.js",
     "runtime-main.js.map": "/interaction-design/static/js/runtime-main.01167a57.js.map",
-    "static/js/2.e0a8319a.chunk.js": "/interaction-design/static/js/2.e0a8319a.chunk.js",
-    "static/js/2.e0a8319a.chunk.js.map": "/interaction-design/static/js/2.e0a8319a.chunk.js.map",
+    "static/js/2.3645809b.chunk.js": "/interaction-design/static/js/2.3645809b.chunk.js",
+    "static/js/2.3645809b.chunk.js.map": "/interaction-design/static/js/2.3645809b.chunk.js.map",
     "static/js/3.19259835.chunk.js": "/interaction-design/static/js/3.19259835.chunk.js",
     "static/js/3.19259835.chunk.js.map": "/interaction-design/static/js/3.19259835.chunk.js.map",
     "index.html": "/interaction-design/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/interaction-design/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.e0a8319a.chunk.js.LICENSE.txt": "/interaction-design/static/js/2.e0a8319a.chunk.js.LICENSE.txt",
+    "static/js/2.3645809b.chunk.js.LICENSE.txt": "/interaction-design/static/js/2.3645809b.chunk.js.LICENSE.txt",
     "static/media/ghost.02d23898.gif": "/interaction-design/static/media/ghost.02d23898.gif",
     "static/media/loading_pumpkin.0455f084.gif": "/interaction-design/static/media/loading_pumpkin.0455f084.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.01167a57.js",
-    "static/js/2.e0a8319a.chunk.js",
+    "static/js/2.3645809b.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.daec12c1.chunk.js"
+    "static/js/main.cded8bda.chunk.js"
   ]
 }
