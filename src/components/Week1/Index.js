@@ -30,9 +30,9 @@ const Week1 = () => (
  <OuterWrapper>
     <StyledWrapper>
         <div>
-            <img src={Ghost} />
+            <img src={Ghost} alt="ghost" />
             <StyledHeader>Loading trick or treats..</StyledHeader>
-            <img src={Pumpking} />
+            <img src={Pumpking} alt="pumpkin" />
         </div>
     </StyledWrapper>
  </OuterWrapper>

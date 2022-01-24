@@ -2,7 +2,7 @@
 
 const Week2 = () => (  
         <div>
-            Loading trick or treats
+            Week 2
 
         </div>
 );
