@@ -31,7 +31,7 @@ const Week1 = () => (
     <StyledWrapper>
         <div>
             <img src={Ghost} />
-            <StyledHeader>Loading trick or treats.</StyledHeader>
+            <StyledHeader>Loading trick or treats..</StyledHeader>
             <img src={Pumpking} />
         </div>
     </StyledWrapper>
