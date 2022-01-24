@@ -2,9 +2,8 @@
 
 const Week2 = () => (  
         <div>
-            <img src={Ghost} />
-            <StyledHeader>Loading trick or treats</StyledHeader>
-            <img src={Pumpking} />
+            Loading trick or treats
+
         </div>
 );
 
