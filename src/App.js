@@ -14,11 +14,11 @@ const Home = () => (
     <h1>Welcome to Interaction Design!</h1>
   <ul>
     <li>
-      <Link to="/Week-1">Week 1 |</Link>
+      <Link to="/Week-1">Week 1 | Loading Screen</Link>
       <br></br>
-      <Link to="/Week-2">Week 2 |</Link>
+      <Link to="/Week-2">Week 2 | Notification</Link>
       <br></br>
-      <Link to="/Week-3">Week 3 |</Link>
+      <Link to="/Week-3">Week 3 | Buttons </Link>
     </li>
   </ul>
 </nav>
