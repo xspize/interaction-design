@@ -72,7 +72,7 @@ const StyledButton = styled.button`
 
 const Week5 = () => {
 
-    const [navOpen, setNavOpen] = useState(true);
+    const [navOpen, setNavOpen] = useState(false);
     const handleClose = () => {
         setNavOpen(false);
     }
