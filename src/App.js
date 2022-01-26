@@ -3,6 +3,7 @@ import Week1 from "./components/Week1/Index";
 import Week2 from "./components/Week2/Index";
 import Week3 from "./components/Week3/Index";
 import Week4 from "./components/Week4/Index";
+import Week5 from "./components/Week5/Index";
 import {
     BrowserRouter as Router,
     Switch,
@@ -22,6 +23,8 @@ const Home = () => (
       <Link to="/Week-3">Week 3 | Buttons </Link>
       <br></br>
       <Link to="/Week-4">Week 4 | Login Screen </Link>
+      <br></br>
+      <Link to="/Week-5">Week 5 | Navigation </Link>
   </ul>
 </nav>
 </center>
@@ -43,6 +46,9 @@ function App(){
                 </Route>
                 <Route path="/Week-4">
                     <Week4 />
+                </Route>
+                <Route path="/Week-5">
+                    <Week5 />
                 </Route>
                 <Route path="/">
                     <Home />
