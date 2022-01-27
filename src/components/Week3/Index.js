@@ -7,19 +7,31 @@ const StyledWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #F5FAF1;
 `;
 
 const StyledButton = styled.button`
     color: #fff;
     background-color: ${(props) => props.color};
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
+    padding: 1.1rem 4rem;
+    font-size: 24px;
     border: 0;
-    border-radius: 0.25rem;
-    box-shadow: 0 0 0.5rem rgba(0,0,0.3);
+    border-radius: 14px;
+    box-shadow: 0 0 0.2rem rgba(0,0,0.3);
     cursor: pointer;
-    margin: 2%;
+    margin: 1%;
+    &:hover {
+        opacity: 0.7;
+    }
 
+`;
+
+const StyledIcon = styled.img`
+    margin: -10rem 0rem 0rem 19rem;
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+    margin-bottom: 50px;
 `;
 
 const Button = (props) => {
@@ -32,12 +44,10 @@ const Button = (props) => {
 const Week3 = () => {  
     return (
     <StyledWrapper>
-
-        <Button color= "#6200ee"> Button 1 </Button>
-        <Button color= "#1200ee"> Button 2 </Button>
-        <Button color= "#1280ee"> Button 3 </Button>
-
-    </StyledWrapper>)
+        <Button color= "#E78B49"> Button 1 </Button>
+        <Button color= "#A1D3D3"> Button 2 </Button>
+        <Button color= "#EDB506"> Button 3 </Button>       
+    </StyledWrapper>) 
 };
 
 export default Week3;

@@ -5,9 +5,9 @@ import styled from "styled-components";
 
 
 const OuterWrapper = styled.div`
-background: #000000;
-width: 100vw;
-height: 100vh;
+    background: #000000;
+    width: 100vw;
+    height: 100vh;
 `;
 
 const StyledWrapper = styled.div`
@@ -20,19 +20,21 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledHeader = styled.h1`
- text-align: center;
- color: #F7962E;
- font-size: 29px;
- font-family: Roboto; 
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Roboto; 
+    margin-top: 1rem;
 `;
 
 const Week1 = () => (  
  <OuterWrapper>
     <StyledWrapper>
         <div>
-            <img src={Ghost} alt="ghost" />
-            <StyledHeader>Loading trick or treats...</StyledHeader>
-            <img src={Pumpking} alt="pumpkin" />
+            <center><img src={Ghost} alt="ghost" /></center>
+            <StyledHeader>Loading trick or treats</StyledHeader>
+            <br />
+            <center><img src={Pumpking} alt="pumpkin" /></center>
         </div>
     </StyledWrapper>
  </OuterWrapper>
