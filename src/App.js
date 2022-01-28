@@ -4,6 +4,7 @@ import Week2 from "./components/Week2/Index";
 import Week3 from "./components/Week3/Index";
 import Week4 from "./components/Week4/Index";
 import Week5 from "./components/Week5/Index";
+import Week8 from "./components/Week8/Index";
 import {
     BrowserRouter as Router,
     Switch,
@@ -16,15 +17,15 @@ const Home = () => (
     <nav>
     <h1>Welcome to Interaction Design!</h1>
   <ul>
-      <Link to="/Week-1">Week 1 | Loading Screen</Link>
+      <Link to="/Week-1">Component 1 | Loading Screen</Link>
       <br></br>
-      <Link to="/Week-2">Week 2 | Notification</Link>
+      <Link to="/Week-3">Component 2 | Buttons </Link>
       <br></br>
-      <Link to="/Week-3">Week 3 | Buttons </Link>
+      <Link to="/Week-4">Component 3 | Login Screen </Link>
       <br></br>
-      <Link to="/Week-4">Week 4 | Login Screen </Link>
+      <Link to="/Week-5">Component 4 | Navigation </Link>
       <br></br>
-      <Link to="/Week-5">Week 5 | Navigation </Link>
+      <Link to="/Week-8">Component 5 | Modals </Link>
   </ul>
 </nav>
 </center>
@@ -49,6 +50,9 @@ function App(){
                 </Route>
                 <Route path="/Week-5">
                     <Week5 />
+                </Route>
+                <Route path="/Week-8">
+                    <Week8 />
                 </Route>
                 <Route path="/">
                     <Home />
